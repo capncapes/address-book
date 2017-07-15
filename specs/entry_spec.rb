@@ -3,7 +3,7 @@ require_relative '../models/entry'
 RSpec.describe Entry do
     
     describe "attributes" do
-        let(:entry) { entry = Entry.new('Brandon Caples', '6292019981', 'brandoncaples@gmail.com') }
+        let(:entry) { Entry.new('Brandon Caples', '6292019981', 'brandoncaples@gmail.com') }
         
         it "responds to name" do
             expect(entry).to respond_to(:name)
